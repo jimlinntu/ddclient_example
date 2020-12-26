@@ -1,0 +1,10 @@
+version: "3.5"
+
+services:
+  client:
+    build: .
+    image: jimlin7777/ddclient
+    command: ddclient -verbose -noquiet -foreground
+    volumes:
+      - "./ddclient.conf:/etc/ddclient.conf:ro"
+    restart: always
