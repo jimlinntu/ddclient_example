@@ -1,7 +1,7 @@
 # An example of Dynamic DNS setup
 
 ## Setting
-* A domain name buyed at namecheap
+* A domain name bought at namecheap
 * A Ubuntu 18.04 machine
 
 ## How to Run
